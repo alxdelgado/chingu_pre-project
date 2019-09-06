@@ -1,0 +1,16 @@
+// Style Rules
+.board_wrapper {
+    height: 70vh;
+    border: 1px solid black;
+    text-align: center;
+
+    .board_container {
+        display: grid;
+        grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+        border: 1px dashed black;
+        height: 50vh;
+        width: 50vw;
+        margin-top: 5rem;
+        display: inline-block;
+    }
+}

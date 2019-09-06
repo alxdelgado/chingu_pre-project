@@ -2,10 +2,14 @@ import React from 'react';
 
 import './tile.styles.scss'; 
 
-const Tiles = () => (
-    <div className='tiles'>
-        <h1>Hello</h1>
-    </div>
-); 
+function Tiles({ tile, isOpen, handleClickTile }) {
+    return (
+        <div className='tile_wrapper'
+            onClick={!isOpen ? handleClickTile : null}
+            isOpen={isOpen}>
+            
+        </div>
+    )
+};
 
 export default Tiles; 

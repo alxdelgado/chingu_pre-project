@@ -13,6 +13,7 @@ class App extends React.Component {
     return (
       <div className="App">
           <h1>Matching Game</h1>
+          <Board />
           
       </div>
     );
