@@ -1,9 +1,23 @@
 // Style Rules
 .tiles_wrapper {
-    background-color: darkgrey; 
     height: 15vh;
     width: 10vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+    grid-gap: space-between;
+    padding: 1px;
+
+    .tiles {
+        background-color: darkgrey; 
+        height: 15vh;
+        width: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
+
+
